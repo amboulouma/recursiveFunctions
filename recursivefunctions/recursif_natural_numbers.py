@@ -3,7 +3,7 @@ def natural_numbers(n):
         return 0
     else:
         print("{} ".format(n), end="")
-        return natural_numbers(n -1)
+        return natural_numbers(n - 1)
     
 while True:
     n = int(input())
