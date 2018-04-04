@@ -4,7 +4,7 @@ def fibonacci(n):
     elif n == 1:
         return 1
     else:
-        return finabocci(n-1) + finabocci(n-2)
+        return fibonacci(n-1) + fibonacci(n-2)
     
 while True:
     print(fibonacci(int(input())))
