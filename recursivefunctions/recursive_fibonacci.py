@@ -7,4 +7,4 @@ def fibonacci(n):
         return finabocci(n-1) + finabocci(n-2)
     
 while True:
-    print(finabocci(int(input())))
+    print(fibonacci(int(input())))
